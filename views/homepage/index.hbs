@@ -1,0 +1,39 @@
+<main role="main" class="container">
+  <div class="starter-template">
+    <div class="mb-3 font-weight-bold" id="player">
+      <h2 style="color: #007bff; text-align: center;">Nombre del Jugador</h2>
+    </div>
+    <div class="mb-3 font-weight-light font-italic" id="message">
+      <p style="font-style: italic; color: #175f28; text-align: center; font-size: 20px;">Esperando al oponente... 😏</p>
+
+    </div>
+    <div class="mb-3" id="displayLetter">
+      <p style="font-weight: bold; color: #dc3545; text-align: center;">La letra para sus palabras es 😎😎😎😎😎: <span class="letter-dots">..............</span></p>
+    </div>
+    <div class="board border-dark p-3" style="background-color: #ffd1dc;"> <!-- Fondo rosa pastel -->
+      <form>
+        <div class="form-group">
+          <input id="firstField" class="form-control mb-2" type="text" placeholder="Ciudad" style="border-color: #17a2b8;">
+          <input id="secondField" class="form-control mb-2" type="text" placeholder="Color" style="border-color: #17a2b8;">
+          <input id="thirdField" class="form-control mb-2" type="text" placeholder="Animal" style="border-color: #17a2b8;">
+          <input id="fourthField" class="form-control mb-2" type="text" placeholder="Pais" style="border-color: #17a2b8;">
+          <input id="fifthField" class="form-control mb-2" type="text" placeholder="Comida" style="border-color: #17a2b8;">
+          <input id="sixthField" class="form-control mb-2" type="text" placeholder="Nombre" style="border-color: #17a2b8;">
+          <div style="text-align: center;">
+  <button type="button" class="btn btn-success mt-3" onclick="receivedBasta()" style="background-color: #28a745; border-color: #28a745;">Basta!</button>
+</div>
+
+        </div>
+      </form>
+    </div>
+    <div class="mt-5 p-2 row card">
+      <div class="col-10" id="winner">
+        <div class="mr-2" id="winner-score">
+          <p style="font-weight: bold; color: #007bff;">Puntuación del jugador: <span id="scoreValue"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
